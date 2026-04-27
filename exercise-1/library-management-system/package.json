@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A complete React Library Management System",
   "private": true,
+  "homepage": "https://chandra-teja-09.github.io/25075A0517",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
