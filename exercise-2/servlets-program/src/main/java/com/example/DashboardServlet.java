@@ -10,8 +10,8 @@ import java.io.PrintWriter;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-@WebServlet(name = "WelcomeServlet", urlPatterns = {"/welcome"})
-public class WelcomeServlet extends HttpServlet {
+@WebServlet(name = "DashboardServlet", urlPatterns = {"/dashboard"})
+public class DashboardServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -54,7 +54,7 @@ public class WelcomeServlet extends HttpServlet {
                 out.println("        <p>Hello, Guest!</p>");
             }
             out.println("        <p class=\"datetime\">Current Date & Time: <strong>" + currentDateTime + "</strong></p>");
-            out.println("        <a href=\"login.html\" class=\"back-btn\">Back to Login</a>");
+            out.println("        <a href=\"index.html\" class=\"back-btn\">Back to Login</a>");
             out.println("    </div>");
             out.println("</body>");
             out.println("</html>");
